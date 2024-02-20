@@ -1,0 +1,32 @@
+/* UserInfo.css */
+
+.user-info-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  /* Loading message style */
+  p.loading {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .error-message {
+    color: #ff0000;
+  }
+  
+  /* Additional styling for specific elements if needed */
+  

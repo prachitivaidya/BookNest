@@ -1,0 +1,87 @@
+/* SubscriptionModal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+  }
+  
+  .modal-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subscription-options {
+    display: flex;
+  }
+  
+  .subscription-option {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px; /* Add margin between subscription options */
+  }
+  
+  .subscription-option:last-child {
+    margin-right: 0; /* Remove margin for the last subscription option */
+  }
+  
+  .subscription-option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .subscription-option h1 {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .subscription-option h2 {
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .close-modal-button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-modal-button:hover {
+    background-color: #ccc;
+  }
+  

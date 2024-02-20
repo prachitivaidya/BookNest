@@ -1,0 +1,40 @@
+/* src/Book/BooksPage.css */
+
+.books-page {
+  text-align: center;
+}
+
+.pdf-viewer-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.book-container {
+  width: 300px; /* Adjust the width as needed */
+}
+
+.book-info {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.book-info img {
+  width: 100px; /* Adjust the image size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Remove link color */
+.book-info a {
+  color: inherit; /* Use the color of the parent element */
+  text-decoration: none; /* Remove underline */
+}

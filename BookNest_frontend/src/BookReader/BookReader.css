@@ -1,0 +1,56 @@
+/* BookReader.css */
+
+.book-reader-container {
+  max-width: 700px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.control-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+}
+
+.page-info {
+  font-size: 22px;
+  margin: 0 30px;
+}
+
+.book-page {
+  max-width: 90%;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the back button */
+.back-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #c82333;
+}

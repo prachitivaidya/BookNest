@@ -1,0 +1,54 @@
+/* src/Book/BooksPage.css */
+/* src/Book/BooksPage.css */
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three books in each row */
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.book-card {
+  width: calc(33.33% - 20px); /* Calculate width for three books per row with spacing */
+  margin-bottom: 20px;
+  flex-grow: 1; /* Allow book cards to grow and fill available space */
+}
+
+.books-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.read-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.read-button:hover {
+  background-color: #45a049;
+}
+
+
+/* BooksPage.css */
+
+.pdf-viewer-container {
+  position: relative; /* Ensure proper positioning of the button */
+  padding-left: 70vh;
+}
+
+.back-button {
+  position: absolute; /* Position the button relative to its container */
+  top: 20px; /* Adjust the top position as needed */
+  left: 20px; /* Adjust the left position as needed */
+  z-index: 999; /* Ensure the button is above other elements */
+}
+

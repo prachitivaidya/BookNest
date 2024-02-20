@@ -1,0 +1,46 @@
+/* src/Book/Book.css */
+
+.book-card {
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  width: 320px; /* Set the width of the book card */
+  margin-bottom: 40px; /* Add some space between book cards */
+  transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+  background-color: #fff; /* White background */
+}
+
+.book-card:hover {
+  transform: translateY(-7px); /* Move card up slightly on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+.book-cover {
+  width: 100%; /* Make the image fill the width of the book card */
+  height: auto; /* Maintain aspect ratio */
+  border-bottom: 2px solid #ddd; /* Light gray border at the bottom */
+}
+
+.book-details {
+  padding: 20px;
+}
+
+.book-title {
+  font-size: 1.6rem; /* Larger font size for title */
+  font-weight: bold; /* Bold title */
+  margin-bottom: 15px;
+  color: #333; /* Darker text color */
+}
+
+.book-author {
+  font-size: 1.2rem; /* Slightly smaller font size for author */
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.book-description {
+  font-size: 1.1rem; /* Regular font size for description */
+  color: #444;
+  line-height: 1.6; /* Increase line height for better readability */
+}

@@ -1,0 +1,36 @@
+/* src/Admin/Book/Book.css */
+
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Set the width of the book card */
+    margin-bottom: 20px; /* Add some space between book cards */
+  }
+  
+  .book-cover {
+    width: 100%; /* Make the image fill the width of the book card */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .book-details {
+    padding: 20px;
+  }
+  
+  .book-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .book-author {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .book-description {
+    font-size: 1rem;
+    color: #333;
+  }
+  

@@ -1,0 +1,124 @@
+.outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .gold {
+    width: 450PX; /* Set width */
+    height: 400PX; /* Set height */
+    background-color: #FFD700; /* Set background color */
+    border-radius: 10px; /* Rounded edges */
+    margin: 10px; /* Add margin between boxes */
+    margin-bottom: 100px;
+    padding-top: 10px;
+  }
+  
+  .silver{
+    position: relative;
+    width: 450PX; /* Set width */
+    height: 400PX; /* Set height */
+    background-color: #C0C0C0; /* Set background color */
+    border-radius: 10px; /* Rounded edges */
+    margin: 10px; /* Add margin between boxes */
+    margin-bottom: 100px;
+    padding-top: 10px;
+  }
+  
+  .platinum {
+    width: 450PX; /* Set width */
+    height: 400PX; /* Set height */
+    background-color: #E5E4E2; /* Set background color */
+    border-radius: 10px; /* Rounded edges */
+    margin: 10px; /* Add margin between boxes */
+    margin-bottom: 100px;
+    padding-top: 10px;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  .silverh2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+  }
+  
+  .goldh2{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+  }
+  
+  .plath2{
+    position: absolute;
+    top: 52%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+  }
+  
+  button {
+    border: none; /* Remove the border */
+    background: none;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 0;
+  }
+  
+  .bottomCenterSilver {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+  }
+  
+  .bottomCenterGold{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+  }
+  
+  .bottomCenterPlatinum{
+    position: absolute;
+    top: 72%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+  }
+  
+  .glittering {
+    background-image: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.7) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.7) 50%,
+      rgba(255, 255, 255, 0.7) 75%,
+      transparent 75%,
+      transparent
+    );
+    background-size: 200% 200%;
+    animation: glitter 2s 2 alternate;
+  }
+  
+  @keyframes glitter {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  
